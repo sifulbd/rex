@@ -449,25 +449,6 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .lo-header-feature-img {
-    margin-top: 30px;
-  }
-  .grid-item {
-    margin-bottom: 30px;
-  }
-  .mobile-pack {
-    display: none !important;
-  }
-  .xb-package-2 {
-    display: block !important;
-  }
-  .lo-cat-ad .cat-inner .each-inner .btn {
-    margin-top: 30px;
-    float: none;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .mobile-pack {
     display: block !important;
@@ -567,6 +548,46 @@
   .mh-blog .mh-blog-item .blog-inner {
     text-align: right;
     padding: 0 12px;
+  }
+  .lo-header-feature-img {
+    margin-top: 30px;
+  }
+  .grid-item {
+    margin-bottom: 30px;
+  }
+  .mobile-pack {
+    display: none !important;
+  }
+  .xb-package-2 {
+    display: block !important;
+  }
+  .lo-cat-ad .cat-inner .each-inner .btn {
+    margin-top: 30px;
+    float: none;
+  }
+  .lo-feature-service .lo-f-service-item {
+    text-align: center;
+  }
+  .lo-feature-service .lo-f-service-item .s-icon {
+    margin: 0 auto;
+  }
+  .lo-services .lo-service-item {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .lo-discover .nav-tabs .nav-item {
+    margin-bottom: 30px;
+  }
+  .lo-team-item {
+    display: -webkit-block;
+    display: -ms-block;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .lo-testimonial .img-cnr {
+    position: absolute;
+    display: none;
   }
 }
 
@@ -715,6 +736,74 @@
   }
   .zb-tabs .nav-item {
     width: 100%;
+  }
+  .lo_content_inner .main_heading {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .lo-button .btn {
+    margin: 0 4px;
+    margin-bottom: 20px;
+  }
+  .lo-section-title h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .cl-logo img {
+    display: block;
+    margin: 0 24px;
+    text-align: center;
+    max-height: 40px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .lo-section-title.portolio-sec-title h2 {
+    font-size: 38px;
+    color: #182D38;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 20px 0;
+    line-height: 50px;
+  }
+  .lo-blog-content .lo-blog-top {
+    margin-bottom: 20px;
+    display: block;
+  }
+  .lo-blog-content .lo-blog-top .blog-each-content {
+    margin-top: 30px;
+  }
+  .lo-blog-content .pined-image ul li {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+  }
+  .lo-testimonial .lo-testimonial-item {
+    text-align: center;
+    padding: 0 20px;
+  }
+  .lo-contact .lo-contact-content h2 {
+    font-size: 40px;
+  }
+  .lo-footer .footer-inner {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .lo-section-title.title-left {
+    text-align: center;
+  }
+  .lo-contact .lo-contact-content {
+    padding: 30px;
+    text-align: center;
+  }
+  .lo-contact .lo-contact-content h4 {
+    text-align: center;
+  }
+  .lo-footer-bottom .footer-links a {
+    margin: 0 4px;
+    border-right: 0;
+    padding: 0 8px;
+    display: block;
+    margin-bottom: 10px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
