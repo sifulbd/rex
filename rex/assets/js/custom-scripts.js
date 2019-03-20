@@ -43,6 +43,14 @@
     $('.navbar-nav>li>a').on('click', function(){
         $('.navbar-collapse').collapse('hide');
     });
+
+    /* counter */
+    $('.counter').counterUp({
+        delay: 12,
+        time: 1200
+    });
+
+  
     
 
     /*

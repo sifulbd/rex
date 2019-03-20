@@ -912,7 +912,7 @@ body {
 
 .lo-home {
   position: relative;
-  padding-bottom: 200px;
+  padding-bottom: 250px;
 }
 
 .lo-home .lo-header-shape {
@@ -923,7 +923,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   right: 0;
-  height: 200px;
+  height: 250px;
   bottom: 0;
 }
 
@@ -1619,6 +1619,7 @@ body {
   text-align: center;
   padding: 60px 26px;
   padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .lo-pricing .lo-pricing-table.purple-table ul li .check:after {
@@ -1867,7 +1868,7 @@ body {
   margin-bottom: 30px;
 }
 
-.lo-contact .single-form .form-control {
+.lo-contact .form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
@@ -1880,13 +1881,13 @@ body {
   transition: 0.3s;
 }
 
-.lo-contact .single-form .form-control:focus {
+.lo-contact .form-control:focus {
   letter-spacing: 0px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.lo-contact .single-form .contact-message {
+.lo-contact .contact-message {
   -webkit-box-shadow: none;
   box-shadow: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
@@ -1899,19 +1900,27 @@ body {
   transition: 0.3s;
 }
 
-.lo-contact .single-form .contact-message:focus {
+.lo-contact .contact-message:focus {
   letter-spacing: 0px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.lo-contact .single-form .btn {
+.lo-contact .btn {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.lo-contact .single-form .btn .fa {
+.lo-contact .btn .fa {
   margin-left: 20px;
+}
+
+.lo-copyright-item {
+  margin-bottom: 30px;
+}
+
+.lo-footer .footer-inner {
+  margin-bottom: 30px;
 }
 
 .lo-footer .footer-inner h4 {

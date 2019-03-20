@@ -55,9 +55,15 @@
   .home-padding {
     padding: 120px 0;
   }
+  .lo-team-item {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
+  .lo-achivement-inner {
+    margin-bottom: 30px;
+  }
   .zb-home {
     height: inherit;
   }
@@ -78,6 +84,24 @@
 @media only screen and (max-width: 991px) {
   .section-separator {
     padding: 40px 0;
+  }
+  .lo-team-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .lo-discover .lo-nav-tabs {
+    width: 100%;
+  }
+  .cl-logo img {
+    margin-bottom: 20px;
+  }
+  .lo-testimonial .lo-testimonial-item {
+    text-align: center;
+    padding: 0 50px;
+  }
+  .lo-copyright-item {
+    text-align: center;
   }
   .mh-testimonial .each-client-item {
     margin: 0;
@@ -426,11 +450,21 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .lo-header-feature-img {
+    margin-top: 30px;
+  }
+  .grid-item {
+    margin-bottom: 30px;
+  }
   .mobile-pack {
     display: none !important;
   }
   .xb-package-2 {
     display: block !important;
+  }
+  .lo-cat-ad .cat-inner .each-inner .btn {
+    margin-top: 30px;
+    float: none;
   }
 }
 
