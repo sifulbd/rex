@@ -153,7 +153,7 @@
      $('#mh-client-review').owlCarousel({
         loop: true,
         responsiveClass: true,
-        nav: true,
+        nav: false,
         autoplay: true,
         smartSpeed: 450,
         stopOnHover : true,
