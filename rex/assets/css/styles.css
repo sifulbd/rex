@@ -908,7 +908,7 @@ body {
     ==============
 */
 .lo_content_inner {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .home-padding {
@@ -1067,7 +1067,7 @@ body {
 
 .lo-services .lo-service-item .cat {
   font-size: 18px;
-  color: #BFBFBF;
+  opacity: 0.6;
   margin: 20px 0;
   text-transform: uppercase;
 }
@@ -1120,7 +1120,7 @@ body {
   display: inline-block;
   margin: 0 10px;
   cursor: pointer;
-  padding: 4px;
+  padding: 4px 10px;
 }
 
 .portfolio-nav ul li:hover {
@@ -1152,6 +1152,10 @@ body {
   transition: 0.5s;
 }
 
+.mh-project-gallery figure:hover figcaption .lo-portfolio-cap-inner .fa {
+  display: none;
+}
+
 .mh-project-gallery figure figcaption {
   position: absolute;
   right: 0;
@@ -1181,6 +1185,7 @@ body {
   color: #fff;
   position: absolute;
   top: -18px;
+  display: none;
   margin-left: -13px;
 }
 
@@ -1299,7 +1304,7 @@ body {
 
 .lo-team-item .team-member-content .lo-team-contact a {
   display: block;
-  opacity: 0.4;
+  opacity: 0.6;
   font-size: 14px;
   color: #182D38;
   letter-spacing: 0;
@@ -1330,6 +1335,10 @@ body {
 
 .lo-company {
   background: #FAF9F7;
+}
+
+.blog-tab-content {
+  padding: 0px 20px;
 }
 
 .lo-blog-tabs .nav-item {
@@ -1503,6 +1512,7 @@ body {
 .lo-blog-content .pined-image ul li img {
   padding: 2px;
   border-radius: 4px;
+  max-height: 70px;
 }
 
 .lo-blog-content .lo-blg-btn {
@@ -1929,7 +1939,7 @@ body {
   color: #182D38;
   letter-spacing: 0.5px;
   line-height: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .lo-footer .footer-inner ul li {
@@ -2026,7 +2036,7 @@ body {
 }
 
 .lo-discover .lo-nav-tabs {
-  width: 85%;
+  width: 75%;
   float: none;
   margin: 0 auto;
   text-align: center;
@@ -2915,5 +2925,9 @@ body {
   left: -200px;
   top: 331px;
   height: 300px;
+}
+
+.lo-copyright-item p {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=styles.css.map */
