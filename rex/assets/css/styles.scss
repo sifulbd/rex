@@ -100,7 +100,7 @@ body {
 */
 
 .lo_content_inner {
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .home-padding {
@@ -249,7 +249,8 @@ body {
         }
         .cat {
             font-size: 18px;
-            color: #BFBFBF;
+            // color: #BFBFBF;
+            opacity: 0.6;
             margin: 20px 0;
             text-transform: uppercase;
         }
@@ -294,7 +295,7 @@ body {
             display: inline-block;
             margin: 0 10px;
             cursor: pointer; 
-            padding: 4px;
+            padding: 4px 10px;
             &:hover {
                 color: $main-color;
                 box-shadow: -1px 3px 30px rgba(0, 0, 0, 0.14);
@@ -318,6 +319,11 @@ body {
                 opacity: 1;
                 bottom: 0;
                 @include transition(.5s);
+                .lo-portfolio-cap-inner {
+                    .fa {
+                        display: none;
+                    }
+                }
             }
         }
         figcaption {
@@ -344,6 +350,7 @@ body {
                     color: #fff;
                     position: absolute;
                     top: -18px;
+                    display: none;
                     margin-left: -13px;
                 }
                 h5 {
@@ -460,7 +467,7 @@ body {
             margin: 10px 0;
             a {
                 display: block;
-                opacity: 0.4;
+                opacity: 0.6;
                 font-size: 14px;
                 color: $title-color;
                 letter-spacing: 0;
@@ -495,6 +502,9 @@ body {
 
 .lo-company {
     background: #FAF9F7;
+}
+.blog-tab-content {
+    padding: 0px 20px;
 }
 .lo-blog-tabs {
     .nav-item {
@@ -1045,9 +1055,7 @@ body {
 
 }
 
-.lo-copyright-item {
-    margin-bottom: 30px
-}
+
 
 .lo-footer {
     .footer-inner {
@@ -1151,7 +1159,7 @@ body {
         }
     }
     .lo-nav-tabs {
-        width: 85%;
+        width: 75%;
         float: none;
         margin: 0 auto;
         text-align: center;

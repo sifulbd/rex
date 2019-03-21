@@ -647,6 +647,11 @@ ul li {
   padding-bottom: 100px;
 }
 
+.section-separator {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
 .home-section-separator {
   padding-top: 100px;
   padding-bottom: 200px;
@@ -1913,10 +1918,6 @@ body {
 
 .lo-contact .btn .fa {
   margin-left: 20px;
-}
-
-.lo-copyright-item {
-  margin-bottom: 30px;
 }
 
 .lo-footer .footer-inner {
